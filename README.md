@@ -1,4 +1,4 @@
-# Air Quality Monitoring Internet of Things (IoT) System
+# Air Quality Monitoring using Arduino Internet of Things (IoT) System
 An IoT-based Air Quality Monitoring System constructed with the Arduino language, the ESP8266 Node 12-E  Microcontroller, &amp; the PMS5003 PM2.5 air particle and dust laser sensor by Plantower. Was used to create a geo-map visualization of collected particulate matter air-quality data of the UTA campus. 
 
 Using the connected air quality sensor and MCU, data that reflected the PM1.0 (particulate matter with a diameter of 1.0 cubic micrometers or less), PM2.5, and PM10 air quality of certain locations within and around the UTA campus was collected. Data gathered, by two undergraduates and myself, was then pooled together in CombinedFeed.xlsx and uploaded to the cloud (MathWork’s ThingSpeak cloud service) with the Arduino IDE. With ThingSpeak, Microsoft Excel, EasyMapMaker.com, and Google Maps an air-quality heat map was created for data visualization. 
