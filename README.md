@@ -1,4 +1,4 @@
-# Air_Quality_Monitoring
+# Air Quality Monitoring Internet of Things (IoT) System
 An IoT-based Air Quality Monitoring System constructed with the Arduino language, the ESP8266 Node 12-E  Microcontroller, &amp; the PMS5003 PM2.5 air particle and dust laser sensor by Plantower. Was used to create a geo-map visualization of collected particulate matter air-quality data of the UTA campus. 
 
 Using the connected air quality sensor and MCU, data that reflected the PM1.0 (particulate matter with a diameter of 1.0 cubic micrometers or less), PM2.5, and PM10 air quality of certain locations within and around the UTA campus was collected. Data gathered, by two undergraduates and myself, was then pooled together in CombinedFeed.xlsx and uploaded to the cloud (MathWork’s ThingSpeak cloud service) with the Arduino IDE. With ThingSpeak, Microsoft Excel, EasyMapMaker.com, and Google Maps an air-quality heat map was created for data visualization. 
@@ -28,6 +28,37 @@ Documentation: [https://arduino-esp8266.readthedocs.io/en/2.6.3/](https://arduin
 Arduino IDE is developed and maintained by the Arduino team. The IDE is licensed under GPL.
 
 ESP8266 core includes an xtensa gcc toolchain, which is also under GPL.
+
+## Learning Attainment & Objectives
+
+### GRC, Data Governance & Compliance
+* **data-integrity** — Maintained accurate records to prove environmental data had not been tampered with before compliance audits.
+* **environmental-compliance** — Directly tied the project to ESG (Environmental, Social, and Governance) compliance reporting.
+* **regulatory-compliance** — Signaled a thorough understanding of data collection boundaries and legal frameworks (e.g., EPA standards, OSHA air safety).
+* **data-provenance** — Tracked data pipelines seamlessly from the physical sensor edge straight to the final map visualization.
+* **audit-trail** — Generated verifiable system logs to fulfill core requirements for enterprise GRC architecture.
+* **data-privacy** — Enforced proper security protocols for campus/public space data collection to handle potential tracking implications.
+
+### Enterprise Systems & Solutions Architecture
+* **solutions-architecture** — Targeted the job family explicitly by framing the project as an end-to-end system design.
+* **iot-architecture** — Positioned the project as a structured, scalable blueprint rather than a loose hardware build.
+* **edge-computing** — Promoted the system from an Arduino hobby into industrial enterprise architecture.
+* **end-to-end-system** — Highlighted the ability to design the entire lifecycle from ingestion to geospatial visualization.
+* **data-ingestion-pipeline** — Framed the process of moving sensor data to the cloud as a formal enterprise data pipeline.
+
+### IoT, Edge Infrastructure & Cybersecurity
+* **iot-security** — Secured vulnerable IoT edge devices (like the ESP8266) against network penetration to satisfy critical GRC requirements.
+* **esp8266-node-mcu** — Anchor-tagged the concrete hardware setup for tech-specific validation.
+* **embedded-systems** — Developed within the broader industry category for hardware engineering and firmware development.
+* **firmware** — Managed the low-level code compilation side of the Arduino platform.
+* **hardware-root-of-trust** — Advanced the device network communications and device authentication frameworks.
+
+### Geospatial & Data Analytics
+* **geospatial-analysis** — Described the campus mapping elements using industry-standard engineering terms.
+* **data-visualization** — Delivered the final visual layer for stakeholders and risk officers.
+* **time-series-data** — Formatted the database and data structure patterns required for environmental sensor tracking.
+* **gis** — Integrated Geographic Information Systems keywords for mapping infrastructure.
+
 
 Esptool.py was initially created by Fredrik Ahlberg (@themadinventor, @kongo), and is currently maintained by Angus Gratton (@projectgus) under GPL 2.0 license.
 
